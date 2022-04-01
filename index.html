@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Redux</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <div id="panel-login" class="panel">
+            <h3>Enter your name</h3>
+            <div class="input-horiz">
+                <input id="login-name" type="text">
+                <button id="login-submit">Confirm</button>
+            </div>
+        </div>
+
+        <div id="panel-opponent" class="panel">
+            <h3>Choose an opponent</h3>
+            <div class="input-horiz">
+                <select id="opponent-list"></select>
+                <button id="opponent-submit">Confirm</button>
+            </div>
+        </div>
+
+        <div id="panel-game" class="panel">
+            <h3>Choose a hand</h3>
+            <div id="game-hands" class="input-horiz"></div>
+        </div>
+
+        <div id="panel-history" class="panel">
+            <h3>Player Scores</h3>
+            <div id="history-scores"></div>
+            <h3>Match History</h3>
+            <ul id="history-matches"></ul>
+        </div>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
